@@ -7,5 +7,5 @@
 # What Percentage tip would you like to give? 10, 12, or 15?
 # Each person should pay:
 
-# Check pull
+# Check push and pull and name
 
