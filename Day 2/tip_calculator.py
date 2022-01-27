@@ -7,5 +7,9 @@
 # What Percentage tip would you like to give? 10, 12, or 15?
 # Each person should pay:
 
-# Check push and pull and name
-
+print("Welcome to the tip calculator.")
+bill = input("What was the total bill? $")
+people = input("How many people to split the bill? ")
+tip = input("What Percentage tip would you like to give? 10, 12, or 15? ")
+result = round((float(bill) / float(people)) * (float(tip) / 100 + 1), 2)
+print(f"Each person should pay: {result}$")
