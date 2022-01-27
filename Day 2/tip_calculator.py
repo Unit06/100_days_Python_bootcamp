@@ -6,7 +6,7 @@
 # How many people to split the bill?
 # What Percentage tip would you like to give? 10, 12, or 15?
 # Each person should pay:
-# Test Commit
+# Test Commit 2
 
 print("Welcome to the tip calculator.")
 bill = float(input("What was the total bill? $"))
