@@ -24,7 +24,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
-user = input("Where will I go? Right or left?\n")
+user = input("Where will I go? Right or left?\n").lower()
 
 if user != "left":
     print('''
@@ -83,7 +83,7 @@ print('''
                                       .-'
 *******************************************************************************
 ''')
-user = input("You come to a lake. There is an island in the middle of the lake. Type \"wait\" to wait for a boat. Type \"swim\" to swim across.\n")
+user = input("You come to a lake. There is an island in the middle of the lake. Type \"wait\" to wait for a boat. Type \"swim\" to swim across.\n").lower()
 if user != "wait":
     print('''
 *******************************************************************************
@@ -131,7 +131,7 @@ print('''
 ejm        |__________|
 *******************************************************************************
 ''')
-user = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?\n")
+user = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?\n").lower()
 if user == "yellow":
     print('''
 *******************************************************************************
