@@ -34,6 +34,11 @@ scissors = '''
 hands = [rock, paper, scissors]
 
 choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+
+if choice < 0 or choice > 2:
+    print("You typed an invalid number, you lose!")
+    exit(0)
+
 ai_choice = random.randint(0, 2)
 
 print(hands[choice])
@@ -41,6 +46,7 @@ print("\n")
 print("Computer chose:\n")
 print(hands[ai_choice])
 print("\n")
+
 if choice == 0 and ai_choice == 1:
     print("You lose.")
 elif choice == 0 and ai_choice == 2:
